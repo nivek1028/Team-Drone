@@ -1,5 +1,6 @@
 ## Welcome to Team Drone
 
+[Architecture](architecture.md)
 
 [Architecture](https://github.com/nivek1028/Team-Drone/blob/gh-pages/architecture.md)
 [Design Document](https://github.com/nivek1028/Team-Drone/blob/gh-pages/design.md)
