@@ -1,5 +1,3 @@
-# Problem Statement
-
 # Requirements Specification for Team Drone
 
 # 1. Introduction
