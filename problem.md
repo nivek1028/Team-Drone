@@ -1,5 +1,39 @@
 # Problem Statement
 
+# Requirements Specification for Team Drone
+
+# 1. Introduction
+Team Drone will create a program that allows a drone to fly to a specific coordinate while having no human interaction. The program will be using Gazebo as a simulator and PX4 as its flight controller firmware. This paper will overview the what we hope to achieve and the problems that we plan on facing as the product comes into fruition. 
+
+# 1.1 Purpose of Product
+Team drone will create a program that will allow some drones to fly to a specific location, back and forth with no human interaction just using GPS coordinates. When this program is completed we are planning to do a specific task such as dropping a package and taking pictures of bridges. The drones need some specification such as sensors, a camera, high payload, and high battery life. The programs that we will be using is Gazebo or Microsoft AirSim for a simulator and PX4 for the flight controller firmware. When the program is completed, we plan on creating a User Interface which asks for GPS coordinates and the drone should just take off to the location and loop around. 
+
+# 1.2 Scope of Product
+The scope of the product is to be able to use gazebo and PX4 to simulate a drone flying from one point to another point safely and with little to no human interaction. A drone needs proximity  sensors so it does not crash into buildings. The team itself needs to check to see if a state has specific rules or laws against drones flying over locations such as private properties, airports, and even getting licensees for the drone. The simulation will need to have obstacles to see if the drone will avoid them and show if the drone can land safely and take off safely as well. Create a User Interface for people to see drone reaching its destinations.
+
+# 1.3 Acronyms, Abbreviations, Definitions
+The terms that will be useful to know are:
+Gazebo which is a drone simulator that we will be using for the program.
+Microsoft AirSim which will also be another drone simulator that we will be using.
+PX4 is a flight controller firmware that will help run with both simulators.
+QgroundControl for mission planning software
+Dronekit and MavSDK are flight controller API Libraries
+
+# 1.4 References
+Any external references needed to understand your project documents. Use URL links if possible.
+Gazebo program.
+http://gazebosim.org/
+Micosoft AirSim
+https://microsoft.github.io/AirSim/
+PX4
+https://px4.io/
+QgroungControl 
+http://qgroundcontrol.com/
+DroneKit
+https://dronekit-python.readthedocs.io/en/latest/
+MavSDK
+https://mavsdk.mavlink.io/develop/en/index.html
+
 ##2. General Description of Product
 The product is a software that will be used to automatically control a drone. The goal of the software is to get a drone to travel from point a to point b autonomously and back. Once the drone reaches point b it will gather information of its surroundings to help the user determine something specific about the location, for example if there is a lot of contamination in that area, if the structure is still structurally stable, or to deliver an object to said location. The primarily focus of this product will be to make it easier for users to get a drone to travel to different locations since flying a drone requires a considerable amount of time and attention.
 ##2.1 Context of Product
